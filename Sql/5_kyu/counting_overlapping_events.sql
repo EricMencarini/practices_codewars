@@ -1,5 +1,6 @@
 --https://www.codewars.com/kata/5977b6641e250a661a0000f0/train/sql
 
+
 WITH calc_entry_exit_same_time AS 
 (
   SELECT 
