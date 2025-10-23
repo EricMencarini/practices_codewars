@@ -1,5 +1,4 @@
 --https://www.codewars.com/kata/5982020284a83baf2f00001c/train/sql
-
 SELECT
   p.name,
   COUNT(CASE WHEN d.detail = 'good' THEN 1 END) AS good,
