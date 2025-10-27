@@ -1,0 +1,1 @@
+--https://www.codewars.com/kata/66c71c893759d440748154f8/train/sql
