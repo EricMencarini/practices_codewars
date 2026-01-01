@@ -10,4 +10,4 @@ FROM
 GROUP BY
   p.name
 ORDER BY
-  p.name
+  p.name;

@@ -21,4 +21,4 @@ SELECT
 FROM
   MoM_posts
 ORDER BY
-  date ASC
+  date ASC;

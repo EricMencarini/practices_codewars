@@ -17,4 +17,4 @@ SELECT
   ROW_NUMBER() OVER(ORDER BY total_points DESC) AS rank,
   *
 FROM
-  clan_info
+  clan_info;

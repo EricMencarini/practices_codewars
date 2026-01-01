@@ -8,4 +8,4 @@ WHERE
   EXISTS (SELECT * FROM sales
             WHERE sales.department_id = departments.id
               AND sales.price > 98
-  )
+  );

@@ -5,7 +5,8 @@ SELECT
     'Product 1: ' || COUNT(CASE WHEN o.product_name = 'Product 1' THEN 1 END) || ' times || ' ||
     'Product 2: ' || COUNT(CASE WHEN o.product_name = 'Product 2' THEN 1 END) || ' times'
         AS product_summary
-FROM customers c
+FROM 
+    customers c
 INNER JOIN orders o 
     ON o.customer_id = c.customer_id
 GROUP BY 

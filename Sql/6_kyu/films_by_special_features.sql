@@ -28,4 +28,4 @@ FROM
 WHERE
   (SELECT special_features FROM most_popular_feature) = ANY(special_features)
 ORDER BY
-  title ASC, film_id ASC
+  title ASC, film_id ASC;

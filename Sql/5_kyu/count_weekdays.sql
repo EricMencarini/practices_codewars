@@ -20,6 +20,7 @@ AS $$
   ) 
   SELECT 
     COUNT(*) AS total_weekdays 
-  FROM sorted_week_days;
+  FROM 
+    sorted_week_days;
 $$;
 

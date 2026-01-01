@@ -16,4 +16,4 @@ SELECT
 FROM
   departments d
 WHERE
-  d.id IN (SELECT d.id FROM special_sales)
+  d.id IN (SELECT d.id FROM special_sales);

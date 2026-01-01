@@ -30,7 +30,8 @@ SELECT
   m.transaction_date,
   m.max_quantity,
   SUM(s.quantity) AS total_quantity_on_max_day
-FROM sales s
+FROM 
+  sales s
 JOIN max_day m
   ON s.store_id = m.store_id
     AND s.product_id = m.product_id
@@ -38,5 +39,5 @@ JOIN max_day m
 GROUP BY
   m.store_id, m.product_id, m.transaction_date, m.max_quantity
 ORDER BY
-  m.store_id ASC, m.product_id ASC
+  m.store_id ASC, m.product_id ASC;
 

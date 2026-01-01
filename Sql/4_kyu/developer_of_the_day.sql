@@ -16,15 +16,19 @@ SELECT
   rd.day_of_week,
   e.employee_id,
   e.full_name
-FROM range_date rd
+FROM 
+  range_date rd
 JOIN (
     SELECT 
         employee_id,
         full_name,
         ROW_NUMBER() OVER (ORDER BY birth_date DESC) AS employee_mirror, 
         COUNT(*) OVER () AS total
-    FROM employees
-    WHERE team = 'backend'
+    FROM 
+      employees
+    WHERE 
+      team = 'backend'
 ) e
   ON ((rd.dod - 1) % e.total) + 1 = e.employee_mirror
-ORDER BY rd.date;
+ORDER BY 
+  rd.date;

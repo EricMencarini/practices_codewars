@@ -4,4 +4,4 @@ SELECT
   n, 
   CAST(SQRT(n) AS BIGINT) * (CAST(SQRT(n) AS BIGINT) - 1) AS res
 FROM 
-  pronic
+  pronic;

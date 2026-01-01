@@ -12,6 +12,6 @@ WHERE NOT EXISTS (
     WHERE 
         prime % d = 0 AND prime <> d
 )
-ORDER BY prime
+ORDER BY prime;
 
 

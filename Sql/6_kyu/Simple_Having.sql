@@ -8,4 +8,4 @@ FROM
 GROUP BY
   age
 HAVING
-  COUNT(*) >= 10
+  COUNT(*) >= 10;
