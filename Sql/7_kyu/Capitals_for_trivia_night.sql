@@ -9,4 +9,4 @@ WHERE 1=1
   AND country LIKE 'E%'
 ORDER BY
   capital
-LIMIT 3
+LIMIT 3;

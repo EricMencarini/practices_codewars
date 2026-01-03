@@ -5,4 +5,4 @@ SELECT
   birthday,
   ASCII(LEFT(race,1)) AS race
 FROM
-  demographics
+  demographics;

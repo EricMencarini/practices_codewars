@@ -6,4 +6,4 @@ FROM
   elves
 WHERE 
   firstname like '%tegil%'
-  OR lastname like '%astar%'
+  OR lastname like '%astar%';

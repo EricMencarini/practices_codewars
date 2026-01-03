@@ -5,4 +5,5 @@ FROM
   stations
 WHERE
   city_name LIKE ANY (ARRAY['A%','E%','I%','O%','U%'])
-ORDER BY city_name ASC;
+ORDER BY 
+  city_name ASC;

@@ -9,4 +9,4 @@ WHERE 1=1
   AND producent = 'CompanyA'
   AND stock <= 2
 ORDER BY
-  id
+  id;

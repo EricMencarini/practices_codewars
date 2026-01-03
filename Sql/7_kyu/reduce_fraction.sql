@@ -2,12 +2,12 @@
 
 
 SELECT
-  numerator::int,
-  denominator::int,
-  (numerator::int / gcd(numerator::int, denominator::int))   AS reduced_numerator,
-  (denominator::int / gcd(numerator::int, denominator::int)) AS reduced_denominator
+  numerator::INT,
+  denominator::INT,
+  (numerator::INT / gcd(numerator::INT, denominator::INT))   AS reduced_numerator,
+  (denominator::INT / gcd(numerator::INT, denominator::INT)) AS reduced_denominator
 FROM 
   fraction
 ORDER BY 
-  numerator::int ASC, 
-  denominator::int ASC;
+  numerator::INT ASC, 
+  denominator::INT ASC;

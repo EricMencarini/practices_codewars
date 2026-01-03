@@ -6,5 +6,5 @@ SELECT
 FROM
   people
 GROUP BY
-  age
+  age;
 

@@ -2,11 +2,11 @@
 
 SELECT
   race,
-  count(*)
+  COUNT(*)
 FROM
   demographics
 GROUP BY
   race
 ORDER BY
-  count(*) DESC
+  COUNT(*) DESC;
   

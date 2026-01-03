@@ -5,4 +5,4 @@ SELECT
   birthday,
   BIT_LENGTH(race) AS race
 FROM
-  demographics
+  demographics;

@@ -3,4 +3,4 @@ SELECT
   n,
   (FLOOR(n / 2.0) * CEILING(n / 2.0))::INT AS res
 FROM 
-  perpendicular
+  perpendicular;
