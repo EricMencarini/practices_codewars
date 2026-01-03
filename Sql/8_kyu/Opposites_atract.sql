@@ -8,4 +8,4 @@ SELECT
        THEN true ELSE false
   END AS res
 FROM
-  love
+  love;

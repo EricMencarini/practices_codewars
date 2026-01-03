@@ -9,4 +9,4 @@ SELECT
     ELSE 0
   END as res
 FROM
-  quarterof
+  quarterof;

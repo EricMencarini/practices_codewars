@@ -8,4 +8,4 @@ SELECT
     ELSE number*9
   END AS res
 FROM
-  multiplication
+  multiplication;

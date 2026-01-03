@@ -7,4 +7,4 @@ FROM
 WHERE
   age > 50
 ORDER BY
-  age DESC
+  age DESC;

@@ -7,4 +7,4 @@ SELECT
       ELSE 'No'
  END AS res
 FROM
-  booltoword
+  booltoword;
