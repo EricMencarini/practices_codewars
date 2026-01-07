@@ -1,6 +1,6 @@
 # Codewars Practice – Python & SQL
 
-This repository contains solutions for Python and SQL exercises based on the free challenges from [Codewars](https://www.codewars.com/).
+This repository contains solutions for Python, SQL, Scala, Shell, Java exercises based on the free challenges from [Codewars](https://www.codewars.com/).
 
 ## 📁 Structure
 
@@ -36,7 +36,7 @@ This repository also encourages exploring **different approaches for each proble
 - Data transformations and filtering  
 - Query optimization techniques
 
-## 🔷 Scala Topics (Fundamentos)
+## 🔷 Scala Topics (fundamentals)
 
 - Basic syntax and type system
 - val vs var and immutability
@@ -45,7 +45,7 @@ This repository also encourages exploring **different approaches for each proble
 - Functions and basic functional operations (map, filter)
 
 
-## 🐚 Shell / Bash Topics (Fundamentos)
+## 🐚 Shell / Bash Topics (fundamentals)
 
 - Essential commands (ls, cd, cp, mv, rm)
 - Pipes and redirection (|, >, >>)
